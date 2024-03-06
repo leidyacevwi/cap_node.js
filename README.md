@@ -1,2 +1,2 @@
-# cap_node.js
+# cap_node
 capacitación sobre node.js
