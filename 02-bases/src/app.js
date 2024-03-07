@@ -5,14 +5,21 @@
 
 // console.log(emailTemplate);
 
-//27.callbacks
-const{getUserById} = require('./js-foundation/03-callbacks');
+//27.callbacks & arrow function
 
-const id = 3;
+// const{getUserById} = require('./js-foundation/03-callbacks');
 
-getUserById(id, function(error, user){
-    if (error){
-        throw new Error('User not found with id', id);
-    }
-    console.log(user);
-});
+// const id = 2;
+// getUserById(id, (error, user)=>{
+//     if (error){
+//         throw new Error(error, id);
+//     }
+//     console.log(user);
+// });
+
+
+// 29. factory funtion
+
+require('./js-foundation/05-factory')
+
+
